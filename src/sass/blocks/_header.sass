@@ -58,7 +58,43 @@
         font-size: 18px
         line-height: 25px
         color: #FFFFFF
+    &__hamburger
+        display: none
+    .burger__menu
+        height: 25px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        cursor: pointer
+        span
+            display: block
+            width: 40px
+            height: 3px
+            background: #FF7400
+            border-radius: 50px
 
+    .burger__slide
+        padding: 80px 20px
+        position: absolute
+        top: 0
+        left: 0
+        width: 50%
+        height: 100vh
+        background: #f3a769 
+        z-index: 10
+        
+        .list
+            padding-bottom: 20px
+        a
+            display: block
+            color: #fff
+            text-decoration: none
+            font-size: 20px
+            margin-bottom: 15px
+            &:hover
+                color: #FF7400
+    .disp
+        display: none
         
 
 
